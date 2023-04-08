@@ -3,12 +3,10 @@
 }
 
 body {
-  overflow: hidden;
   display: flex;
   background: hsl(212, 45%, 89%);
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: row;
   align-items: center;
 }
@@ -37,12 +35,12 @@ p {
 
 h1 {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-top: 15px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }
